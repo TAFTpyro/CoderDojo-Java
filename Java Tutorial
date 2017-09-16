@@ -1,0 +1,33 @@
+MINECRAFT JAVA TUTORIAL
+
+Doel van de tutorial: een minecraft client maken.
+Wat leer je van deze tutorial? Je ziet hoe het is om serieus te programmeren, je gebruikt veel creativiteit.
+Video van voorbeeld client: 
+
+Setup:
+1. Download de files van deze link:
+2. Ga naar eclipse.
+3. Gebruik als workspace /MCP/eclipse.
+4. Ga naar de mods folder.
+
+Mijn eerste aanpassingen:
+1. Open de class Speed.
+2. Verander de int speed naar de snelheid die je zelf wilt.
+3. Save alles (Met ctrl+shift+s).
+4. Run de client.
+5. Test de aanpassing door kneiterhard te rennen.
+
+Variabele: een variabele is een waarde die je opslaat met een naam. Je kan de waarde eruit halen door de naam te gebruiken. Zo wordt de variabele speed later gebruikt om je snelheid te veranderen.
+Elke variabele heeft een type om aan te geven wat voor waarde erin staat. 
+int: Het type int geeft aan dat het om een getal gaat.
+Andere types bespreken we later.
+
+Zelf een mod maken:
+1. Maak een class aan met de naam van de mod.
+2. Voeg achter public class Flight, extends Module toe.
+3. Nu verschijnt onder Flight een rood streepje (Altijd bij een rood streepje rechtermuisklik!), druk hierop met de rechtermuisknop en druk op add constructor.
+4. Vul de constructor in. Verwijder de parameters: String nm, int k, Category c
+5. Vul bij nm de naam in, bij k de keybind, bij c de category. Bijvoorbeeld: "Flight" , Keyboard.KEY_F, Category.MOVEMENT. BELANGRIJK: BIJ NAAM OMRING DE NAAM MET "
+6. Maak een public void onUpdate(){}   Deze functie gaat heel snel achter elkaar uit voeren wat tussen de {} staat.
+7. Maak tussen de {} if(this.isToggled){}  Deze functie kijkt of de mod is aangezet of niet.
+8. 

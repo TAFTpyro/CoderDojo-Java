@@ -31,4 +31,4 @@ Zelf een mod maken:
 5. Vul bij nm de naam in, bij k de keybind, bij c de category. Bijvoorbeeld: "Flight" , Keyboard.KEY_F, Category.MOVEMENT. BELANGRIJK: BIJ NAAM OMRING DE NAAM MET "
 6. Maak een public void onUpdate(){}   Deze functie gaat heel snel achter elkaar uit voeren wat tussen de {} staat.
 7. Maak tussen de {} if(this.isToggled){}  Deze functie kijkt of de mod is aangezet of niet.
-8. Maak tussen de {} van if een manier om te vliegen.
+8. Maak tussen de {} van if een manier om te vliegen. TIP: gebruik en zet deze op true mc.thePlayer.capapabilities.isFlying
